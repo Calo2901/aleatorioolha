@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="s7!Y/j!|HHX$;|=h)#[8">enquanto</variable></variables><block type="device_button_event" id="UA?Yj*qM:zAEfoevCYc4" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="9}h%?$xRvw)(ER|wqYF-"><value name="TIMES"><shadow type="math_whole_number" id="0%aH@?g_i]?V%w7fnmgK"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="~nVI0zQ]~U~lJ_Yd$(8M"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="VO/wx0VsKeKadfI0*W08"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="C_(:iFfn87AUzX0ZGylL"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="Ac#buz9%Mj0Y88Ho_,_2"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="[p]nrMFnkR?z@olu2HBH"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_clear_display" id="umKcFegP4{x3j-RXgFMl"></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="pxt-on-start" id="v|z_XL;{CejQ.CmbfcTk" x="321" y="11"><statement name="HANDLER"><block type="music_playable_play" id="bfo8@7Yk-x+P`UUy.A@H"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="4i_92.cj:33WUP%wq7ap"><value name="melody"><shadow type="melody_editor" id="osfZ2hi.Wr`i%i!Xo_QG"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="A;}TCUA#zzVNZcj:1%lZ"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">140</field></shadow></value></shadow></value><next><block type="music_playable_play" id="%#eos-5A-@D6_bmI2}nn"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="h]oDh#|);ckO,80}Le/h"><value name="melody"><shadow type="melody_editor" id="U,UZnb[c*ye1q-TJ%C;#"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="RLf*0`IN;hvxHWj/eLJ="><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></statement></block><block type="device_button_event" id="!+LHHt0e6?Ux}|#G9cy]" x="302" y="252"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="=X;m-xsqm1M/`~huNJ,a"><field name="LEDS">`
+        # # . # # 
+        # . # . # 
+        . # # # . 
+        # . # . # 
+        # # . # #
+        `</field><next><block type="device_print_message" id="jx/0@o%4I|+}|uPU9$zG"><value name="text"><shadow type="text" id="V94SIysv;^aA|A$I5=EM"><field name="TEXT">Fuck you, and you, and you I hate your friends and they hate me too I'm through, I'm through, I'm through</field></shadow></value></block></next></block></statement></block></xml>
